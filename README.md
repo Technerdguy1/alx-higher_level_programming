@@ -4,12 +4,11 @@ High Level Programming, Data Structure and Algorithms
 Higher-level programming, Data Structure & algorithms was one of the core Curriculum/projects done during my `Full Stack Software Engineering studies` at **ALX_Africa/Holberton_School.**
 The language of chioce for this project is **Python Programming Language**.
 
-| [**The Zen of Python, by Tim Peters**] |
+Zen
+ --------
+| [The Zen of Python, by Tim Peters] |
 | ---- |
-|Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
+|Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.
 Flat is better than nested.
 Sparse is better than dense.
 Readability counts.
