@@ -17,4 +17,3 @@ class Square:
         :param size: int size of square
         """
         self.__size = size
-
