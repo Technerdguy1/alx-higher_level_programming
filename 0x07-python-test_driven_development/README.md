@@ -9,9 +9,10 @@ It aims was to learn about:
  - What are the basic option flags to create tests.
  - How to find edge cases.
 
-Requirements
-  ------------------
-# Python Scripts
+# Requirements
+
+ Python Scripts
+    ----------------------
  - Allowed editors: vi, vim, emacs.
  - All files were compiled on `Ubuntu 20.04 LTS`
  - All files were interpreted using `python3 (version 3.8.5)`
