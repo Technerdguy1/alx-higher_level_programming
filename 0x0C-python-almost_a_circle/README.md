@@ -69,8 +69,6 @@ The following files are scripts and programs written in Python
 | ----- | ------- |
 | `tests/` |  All your files, classes and methods must be unit tested and be PEP 8 validated.|
 | `models/base.py, models/__init__.py` | Write the first class `Base`: This class will be the "base" of all other classes in this project. The goal of it is to manage `id` attribute in all your future classes and to avoid duplicating the same code (by extension, same bugs) | 
-| `models/rectangle.py` | Write the class `Rectangle` that inherits from `Base`: Why private attributes with getter/setter? Why not directly public attribute?
-
-Because we want to protect attributes of our class. With a setter, you are able to validate what a developer is trying to assign to a variable. So after, in your class you can "trust" these attributes. |
+| `models/rectangle.py` | Write the class `Rectangle` that inherits from `Base`: Why private attributes with getter/setter? Why not directly public attribute? Because we want to protect attributes of our class. With a setter, you are able to validate what a developer is trying to assign to a variable. So after, in your class you can "trust" these attributes. |
 | |
  
