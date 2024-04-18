@@ -47,15 +47,30 @@ rt__("my_module").MyClass.__doc__)')
  - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
  - We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 
-# Documentation
- - Do not use the words `inport` and `from` inside your comments, the checker will think you try to import some modules.
+Python Unit Tests
+  ------------------
+- Allowed editors: `vi, vim, emacs`
+- All your files should end with a new line.
+- All your test files should be inside a folder `tests`
+- You have to use the `unittest module`
+- All your test files should be python files (extension:`.py`)
+- All your test files and folders should start with test_
+- Your file organization in the tests folder should be the same as your project: ex: for `models/base.py`, unit tests must be in: `tests/test_models/test_base.py`
+- All your tests should be executed by using this command:`python3 -m unittest discover tests`
+- You can also test file by file, by using this command: `python3 -m unittest tests/test_models/test_base.py`
+- We strongly encourage you to work together on test cases so that you don't miss any edge case.
 
 Files
    -------------
+
 The following files are scripts and programs written in Python
 
 | Filename | Description |
 | ----- | ------- |
-| `0-read_file.py` | Write a function that reads a text file `(UTF8)` and prints it to stdout |
-| `1-write_file.py` | Write a function that writes a string to a text file`(UTF8)` and returns the number of characters written |
+| `tests/` |  All your files, classes and methods must be unit tested and be PEP 8 validated.|
+| `models/base.py, models/__init__.py` | Write the first class `Base`: This class will be the "base" of all other classes in this project. The goal of it is to manage `id` attribute in all your future classes and to avoid duplicating the same code (by extension, same bugs) | 
+| `models/rectangle.py` | Write the class `Rectangle` that inherits from `Base`: Why private attributes with getter/setter? Why not directly public attribute?
+
+Because we want to protect attributes of our class. With a setter, you are able to validate what a developer is trying to assign to a variable. So after, in your class you can "trust" these attributes. |
+| |
  
